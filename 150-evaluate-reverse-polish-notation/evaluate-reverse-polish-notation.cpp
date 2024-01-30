@@ -2,7 +2,7 @@ class Solution {
 public:
     stack<int> st;
     void operation(string& op){
-        
+        if (st.empty()) return;
         
         int n2=st.top();
         st.pop();
